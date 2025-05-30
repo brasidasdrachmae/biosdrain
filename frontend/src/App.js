@@ -130,7 +130,7 @@ const generateAIResponse = (message, userContext) => {
 
   if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey')) {
     return {
-      text: `Hi ${user.name}! 👋 I'm Aya, your AI companion across EverySing. I've been analyzing your activity - you have ${cart.length} items in your cart and your last purchase shows great taste in sustainable products! How can I help you make smarter decisions today?`,
+      text: `Hi ${user.name}! 👋 I'm Mosso, your AI companion across EverySing. I've been analyzing your activity - you have ${cart.length} items in your cart and your last purchase shows great taste in sustainable products! How can I help you make smarter decisions today?`,
       suggestions: ['Get Recommendations', 'Analyze My Spending', 'Find Career Opportunities']
     };
   }
